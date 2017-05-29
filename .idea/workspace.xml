@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9b1b9d-77ae-47c4-9490-46a6677fbc4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SensitiveWordsFilter/FilterDemo.java" afterPath="$PROJECT_DIR$/src/SensitiveWordsFilter/FilterDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="FilterDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SensitiveWordsFilter/FilterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            <state relative-caret-position="247">
+              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#347#368#0" expanded="true" />
@@ -590,12 +590,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496044403974</updated>
-      <workItem from="1496044413919" duration="4047000" />
+      <workItem from="1496044413919" duration="5947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4047000" />
+    <option name="totallyTimeSpent" value="5947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1920" height="1023" extended-state="6" />
@@ -665,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SensitiveWordsFilter/FilterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        <state relative-caret-position="247">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#347#368#0" expanded="true" />

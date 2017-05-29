@@ -44,6 +44,10 @@ public class FilterDemo {
 
         for (int i = 0; i < lineTxt.length(); ++i) {
             Character val = lineTxt.charAt(i);
+
+            if(isSymbol(val)){
+                continue;
+            }
             TreeNode node = tmpNode.getSonNode(val);
 
             if (node == null) {
@@ -60,18 +64,38 @@ public class FilterDemo {
 
     }
 
+    public boolean isSymbol(char c){
+
+
+        int ic=(int)c;
+
+        return (ic<0X2E80||ic>0x9FFF);
+    }
+
     public String filter(String txt) {
         if (txt == null) {
             return txt;
         }
+
+
         StringBuffer result = new StringBuffer();
         String replace = "***";
         TreeNode treeNode = rootNode;
         int begin = 0;
         int position = 0;
         while (position < txt.length()) {
-            
+
             Character val = txt.charAt(position);
+
+            if(isSymbol(val)){
+                if(treeNode==rootNode){
+
+                    result.append(val);
+                    ++begin;
+                }
+                ++position;
+                continue;
+            }
             treeNode = treeNode.getSonNode(val);
 
             if (treeNode == null) {
@@ -106,7 +130,7 @@ public class FilterDemo {
         FilterDemo filterDemo = new FilterDemo();
         filterDemo.addWord("色情");
         filterDemo.addWord("嫖娼");
-        System.out.println(filterDemo.filter("白色情人节"));
+        System.out.println(filterDemo.filter("你好色 情"));
 
     }
 
